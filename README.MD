@@ -84,9 +84,19 @@ where "CourseML" is the name of the virtual environment that we just created. Yo
 
 Now all the changes you make to the environments will only happen to the virtual environment (So you can start over when if mess up)!
 
+
+## Google Colab
+
+Colaboratory, or "Colab" for short, is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud.
+
+The most powerful feature of Google Colab is the ability to use cloud GPUs for free! Follow the instruction at:
+
+https://colab.research.google.com/drive/1-n1w_oj7gIDyfBF7GQsmu-kHE4t_c-je?usp=sharing
+
+
 ## Python/Jupyter Notebook
 
-The Jupyter notebook can be installed as usually via pip.
+If you want to run notebook in your local machine, the Jupyter notebook can be installed as usually via pip.
 
     $ pip install jupyter notebook
 
@@ -106,16 +116,5 @@ Jupyter will start in our default browser (typically running at [http://localhos
 
 For more information about the Jupyter notebook, I recommend the [Jupyter Beginner Guide](http://jupyter-notebook-beginner-guide.readthedocs.org/en/latest/what_is_jupyter.html) and [Jupyter Notebook Basics](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html).
 
-## Jupyter Lab
 
-An alternative to Jupyter Notebook, called Jupyter Lab, was released in 2018. It operates with the same `.ipynb` file types but offers some extra features in the browser interface. Whether you use Jupyter Notebook or Jupyter Lab is a matter of preference, but
-
-Jupyter Lab can be installed via 
-
-    $ conda install -c conda-forge jupyterlab
     
-and similar to starting Jupyter Notebooks, you can run the command 
-
-    $ jupyter lab
-    
-in your command line terminal to launch a Jupyter Lab session in your browser. For more information about the Jupyter Lab project, please visit the official documentation at https://jupyterlab.readthedocs.io/en/stable/,
